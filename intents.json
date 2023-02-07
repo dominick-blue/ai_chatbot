@@ -1,0 +1,31 @@
+{"intents": [
+  {"tag":  "greetings",
+  "patterns":  ["hello", "hey", "hi", "good day", "greetings", "what's up?", "G'day", "how is it going?"],
+  "responses":  ["Hello! What can I do for you?"]},
+
+  {"tag":  "goodbye",
+  "patterns":  ["cya", "See you later", "Good bye", "bye", "Have a good day", "see ya"],
+  "responses":  ["Thank you for your time: (", "See you later!", "Goodbye"]
+  },
+
+  {"tag":  "service",
+  "patterns":  ["search service", "mq", "threads", "database", "connpool", "connection pools"],
+  "responses":  ["This sounds like an issue the SR team can help with, one second please!"]
+  },
+
+  {"tag":  "team",
+  "patterns":  ["I'm with SearchOps", "CDSE", "CIR", "Search", "Support"],
+  "responses":  ["Thank you for letting me know."]
+  },
+
+  {"tag":  "request",
+  "patterns":  ["restart hosts", "pm start"],
+  "responses":  ["Apologies, that is not a service SR provides anymore."]
+  },
+
+  {"tag":  "hours",
+  "patterns":  ["anyone online?", "are you available?", "can you help right now?", "hours of operation", "hours"],
+  "responses":  ["Someone will be with you in just a minute.", "We are currently in an incident.",
+    "Our cross GEO teams monitor this channel Monday-Friday"]
+  }
+]}
